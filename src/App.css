@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  border: none;
+  color: white;
+  padding: 5px;
+  margin: 0 auto;
+  text-transform: uppercase;
+  background: transparent;
+  font-size: 1.3rem;
+}
+button:hover {
+  transition: 0.2ms;
+  color: black;
+}
+nav {
+  color: rgb(22, 21, 21);
+  background-attachment: fixed;
+  background-color: blueviolet;
+}
+
+.container h4 {
+  text-transform: uppercase;
+  margin-top: 6px;
+  color: white;
+}
+
+.avatar {
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+  z-index: 1;
+
+  max-width: 100%;
+  border-radius: 50%;
+}
+#main {
+  padding-top: 10px;
+  display: none;
+  width: 100%;
+}
+.profile {
+  position: relative;
+  width: 20rem;
+  padding: 1.8rem;
+  height: fit-content;
+  background: #fff;
+  margin: 20px 80px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+  transition: 0.3s ease-in-out;
+}
+.profile:hover {
+  transition: 400ms;
+  box-shadow: 0 0px 0px 0 rgba(97, 77, 77, 0.2);
+  background: blueviolet;
+}
+.email {
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0 auto;
+}
+
+.name {
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 15px auto 0 auto;
+}
+.user {
+  margin: 0 auto;
+}
+.loader {
+  margin: auto;
+}
